@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #002233;
+  /* background: radial-gradient(circle, transparent 25%, #002233 26%), linear-gradient(45deg, transparent 46%, #221f5b 47%, #221f5b 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #221f5b 47%, #221f5b 52%, transparent 53%);
+  background-size: 1em 1em;
+  background-color: #002233;
+  opacity: 1 */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.common {
+  background-image: url('./assets/img/bg3.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.dashboard {
+  /* background: #002233; */
+  /* background-image: url('./assets/img/dashboard-bg.svg'); */
+  min-height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('./assets/img/waves.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  z-index: -1;
 }
