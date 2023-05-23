@@ -3,7 +3,3 @@
 
 ---
 
-This application is deployed on: https://projectboard-frontend.onrender.com
-
----
-
