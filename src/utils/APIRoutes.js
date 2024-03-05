@@ -1,4 +1,4 @@
-export const host = "http://localhost:5000/api"
+export const host = "https://projectboard-backend.onrender.com/api"
 
 export const getUser = `${host}/user/get-user`;
 export const registerRoute = `${host}/user/create`;
